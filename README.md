@@ -40,3 +40,40 @@ Returning to our example above from train-test split, if we have 5000 rows of da
 # 5. Logistic Regression
 Logistic regression is a classification algorithm that predicts the probability of an outcome that can only have two values (i.e. a dichotomy). A logistic regression produces a logistic curve, which is limited to values between 0 and 1. Logistic regression models the probability that each input belongs to a particular category.
 Logistic regression is an excellent tool to know for classification problems, which are problems where the output value that we wish to predict only takes on only a small number of discrete values. Here we'll focus on the binary classification problem, where the output can take on only two distinct classes.
+
+# 6. Decision Tree
+
+Decision tree is a type of supervised learning algorithm that is mostly used in classification problems. It works for both categorical and continuous input and output variables.
+
+Example:-
+
+Let’s say we have a sample of 30 students with three variables Gender (Boy/Girl), Class(IX/X) and Height (5 to 6 ft). 15 out of these 30 play cricket in leisure time. Now, I want to create a model to predict who will play cricket during leisure period? In this problem, we need to segregate students who play cricket in their leisure time based on highly significant input variable among all three.
+
+This is where decision tree helps, it will segregate the students based on all values of three variable and identify the variable, which creates the best homogeneous sets of students (which are heterogeneous to each other). In the snapshot below, you can see that variable Gender is able to identify best homogeneous sets compared to the other two variables.
+![image](https://user-images.githubusercontent.com/77626222/143275864-ac42ef85-38dd-49a2-ae23-47c2d54ca3b6.png)
+## Important Terminology
+Root Node: It represents entire population or sample and this further gets divided into two sets.
+
+Splitting: It is a process of dividing a node into two sub-nodes.
+
+Decision Node: When a sub-node splits into further sub-nodes, then it is called decision node.
+
+Leaf/ Terminal Node: Nodes do not split is called leaf or terminal node.
+
+Pruning: When we remove sub-nodes of a decision node, this process is called pruning. You can say opposite process of splitting.
+
+Branch / Sub-Tree: A sub section of entire tree is called branch or sub-tree.
+
+Parent and Child Node: A node, which is divided into sub-nodes is called parent node of sub-nodes where as sub-nodes are the child of parent node.
+
+![image](https://user-images.githubusercontent.com/77626222/143276233-c18d888f-8b87-4a78-aa86-f1a4c3315940.png)
+
+## Advantages
+Easy to Understand: Decision tree output is very easy to understand even for people from non-analytical background. It does not require any statistical knowledge to read and interpret them. Its graphical representation is very intuitive and users can easily relate their hypothesis.
+
+Useful in Data exploration: Decision tree is one of the fastest way to identify most significant variables and relation between two or more variables. With the help of decision trees, we can create new variables / features that has better power to predict target variable. It can also be used in data exploration stage. For example, we are working on a problem where we have information available in hundreds of variables, there decision tree will help to identify most significant variable. Less data cleaning required: It requires less data cleaning compared to some other modeling techniques. It is not influenced by outliers and missing values to a fair degree.
+
+Non Parametric Method: Decision tree is considered to be a non-parametric method. This means that decision trees have no assumptions about the space distribution and the classifier structure.
+
+## Disadvantages
+Over fitting: Over fitting is one of the most practical difficulty for decision tree models. This problem gets solved by setting constraints on model parameters and pruning.
