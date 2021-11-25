@@ -166,4 +166,5 @@ Level-1 Model (Meta-Model): Model that learns how to best combine the prediction
 The outputs from the base models used as input to the meta-model may be real value in the case of regression, and probability values, probability like values, or class labels in the case of classification.
 
 ## Bagging vs. Boosting
+
 ![image](https://user-images.githubusercontent.com/77626222/143467856-5fa5aeb6-7c8f-49d6-87ff-c5db1f18df89.png)
