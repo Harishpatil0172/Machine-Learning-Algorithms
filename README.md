@@ -172,7 +172,7 @@ The outputs from the base models used as input to the meta-model may be real val
 # 8. KNN:
 K-nearest neighbors (kNN) is a supervised machine learning algorithm that can be used to solve both classification and regression tasks.
 
-![image](https://user-images.githubusercontent.com/77626222/144537109-43e77220-1918-43f5-bdbf-a61b0a030dc9.png)
+![image](https://user-images.githubusercontent.com/77626222/144539450-fcd7bd3e-52da-49f3-a2b0-ba540b274bf1.png)
 
 ### How does kNN work?
 The kNN working can be explained on the basis of the below algorithm:
