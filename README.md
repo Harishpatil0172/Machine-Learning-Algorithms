@@ -168,3 +168,26 @@ The outputs from the base models used as input to the meta-model may be real val
 ## Bagging vs. Boosting
 
 ![image](https://user-images.githubusercontent.com/77626222/143467856-5fa5aeb6-7c8f-49d6-87ff-c5db1f18df89.png)
+
+# 8. KNN:
+K-nearest neighbors (kNN) is a supervised machine learning algorithm that can be used to solve both classification and regression tasks.
+
+![image](https://user-images.githubusercontent.com/77626222/144537109-43e77220-1918-43f5-bdbf-a61b0a030dc9.png)
+
+### How does kNN work?
+The kNN working can be explained on the basis of the below algorithm:
+
+    Step-1: Select the number K of the neighbors
+    Step-2: Calculate the Euclidean distance of K number of neighbors
+    Step-3: Take the K nearest neighbors as per the calculated Euclidean distance.
+    Step-4: Among these k neighbors, count the number of the data points in each category.
+    Step-5: Assign the new data points to that category for which the number of the neighbor is maximum.
+    Step-6: Our model is ready.
+    
+### Advantages of KNN Algorithm:
+    It is simple to implement.
+    It is robust to the noisy training data
+    It can be more effective if the training data is large.
+### Disadvantages of KNN Algorithm:
+    Always needs to determine the value of K which may be complex some time.
+    The computation cost is high because of calculating the distance between the data points for all the training samples.
